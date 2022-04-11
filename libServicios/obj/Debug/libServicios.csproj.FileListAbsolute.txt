@@ -1,0 +1,6 @@
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\libServicios\bin\Debug\libServicios.dll
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\libServicios\bin\Debug\libServicios.pdb
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\libServicios\obj\Debug\libServicios.csproj.AssemblyReference.cache
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\libServicios\obj\Debug\libServicios.csproj.CoreCompileInputs.cache
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\libServicios\obj\Debug\libServicios.dll
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\libServicios\obj\Debug\libServicios.pdb

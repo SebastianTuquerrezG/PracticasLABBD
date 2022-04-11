@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "appConsMatematica/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "libServicios": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/appConsMatematica.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/appConsMatematica.dll": {}
+        }
+      },
+      "libServicios/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/libServicios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/libServicios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "appConsMatematica/1.0.0": {
+      "type": "project",
+      "path": "../appConsMenu/appConsMatematica.csproj",
+      "msbuildProject": "../appConsMenu/appConsMatematica.csproj"
+    },
+    "libServicios/1.0.0": {
+      "type": "project",
+      "path": "../../libServicios/libServicios.csproj",
+      "msbuildProject": "../../libServicios/libServicios.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "appConsMatematica >= 1.0.0",
+      "libServicios >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Personal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Personal\\OneDrive - unicauca.edu.co\\Documentos\\Semestre 4\\Practica\\appMenu\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\Personal\\OneDrive - unicauca.edu.co\\Documentos\\Semestre 4\\Practica\\appMenu\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Personal\\OneDrive - unicauca.edu.co\\Documentos\\Semestre 4\\Practica\\appMenu\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Personal\\OneDrive - unicauca.edu.co\\Documentos\\Semestre 4\\Practica\\appMenu\\appConsMenu\\appConsMatematica.csproj": {
+              "projectPath": "C:\\Users\\Personal\\OneDrive - unicauca.edu.co\\Documentos\\Semestre 4\\Practica\\appMenu\\appConsMenu\\appConsMatematica.csproj"
+            },
+            "C:\\Users\\Personal\\OneDrive - unicauca.edu.co\\Documentos\\Semestre 4\\Practica\\libServicios\\libServicios.csproj": {
+              "projectPath": "C:\\Users\\Personal\\OneDrive - unicauca.edu.co\\Documentos\\Semestre 4\\Practica\\libServicios\\libServicios.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
