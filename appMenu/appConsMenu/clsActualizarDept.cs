@@ -3,7 +3,7 @@ using Servicios.Menus;
 using System;
 using System.IO;
 
-namespace appMatematica.Presentacion.Consola
+namespace appPractica1.Presentacion.Consola
 {
     public class clsActualizarDept : clsMenu
     {
@@ -11,12 +11,7 @@ namespace appMatematica.Presentacion.Consola
         {
             clsConsola.LimpiarPantalla();
 
-            string FileToRewritten = @"C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\BD1\ej.txt";
             StreamWriter streamWriter = new StreamWriter(FileToRewritten);
-
-            string sentenciaSql = "";
-            string[] renglones = File.ReadAllLines(FileToRead);
-            string Tabla = "MI_TABLA_SQL";
 
             #region Variables para el For
             int o,i;
@@ -52,22 +47,6 @@ namespace appMatematica.Presentacion.Consola
                         {
                             case 1:
                                 {
-                                foreach (string line in File.ReadLines(FileToRead))
-                                    {
-                                        Char delimiter = ',';
-                                        string[] datos = line.Split(delimiter);
-                                        for (byte columna = 0; columna < datos.Length; columna++)
-                                        {
-                                            sentenciaSql = sentenciaSql + datos[columna] + "','";
-                                        }
-                                        sentenciaSql = "INSERT INTO " + Tabla + " VALUES ('" + sentenciaSql;
-                                        sentenciaSql = sentenciaSql.Substring(0, sentenciaSql.Length - 2) + ")";
-                                        Console.WriteLine(sentenciaSql);
-                                        sentenciaSql = "";
-                                    }
-                                } break;
-                            case 2:
-                                {
                                     foreach (string line in File.ReadLines(FileToRead))
                                     {
                                         string linea = line;
@@ -77,7 +56,7 @@ namespace appMatematica.Presentacion.Consola
                                     streamWriter.Close();
                                 }
                                 break;
-                            case 3:
+                            case 2:
                                 {
                                     foreach (string line in File.ReadLines(FileToRead))
                                     {
@@ -94,7 +73,7 @@ namespace appMatematica.Presentacion.Consola
                         dept = "Geothermal Technology Department";
                         switch (o)
                         {
-                            case 2:
+                            case 1:
                                 {
                                     foreach (string line in File.ReadLines(FileToRead))
                                     {
@@ -105,7 +84,7 @@ namespace appMatematica.Presentacion.Consola
                                     streamWriter.Close();
                                 }
                                 break;
-                            case 3:
+                            case 2:
                                 {
                                     foreach (string line in File.ReadLines(FileToRead))
                                     {

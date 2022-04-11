@@ -6,6 +6,7 @@ namespace Servicios.Menus
     {
         #region Atributos
         protected string FileToRead = @"C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\positions.csv";
+        protected string FileToRewritten = @"C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\BD1\ej.txt";
         protected int atrOpcion = -1;
         protected int atrOpcionSalir;
         protected string[] atrItems; 
@@ -27,7 +28,7 @@ namespace Servicios.Menus
             for (int i = 1; i < atrItems.Length; i++)
                 clsConsola.EscribirSaltarLinea(i + "." + atrItems[i]);
         }
-        private void iterarMenu() // Patron de Diseño: Metodo de Plantilla, Entorno vocabulario
+        private void iterarMenu()
         {
             do
             {

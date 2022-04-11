@@ -41,10 +41,6 @@ namespace Servicios.Consolas
         }
         #endregion
         #region Servicios de Control
-        /*public static int ConvertirParse_LeerDato(int num)
-        {
-            num = int.Parse(Console.ReadLine());
-        }*/
         public static void LimpiarPantalla()
         {
             Console.Clear();

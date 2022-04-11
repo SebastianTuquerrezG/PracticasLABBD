@@ -4,7 +4,7 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 
-namespace appMatematica.Presentacion.Consola
+namespace appPractica1.Presentacion.Consola
 {
     public class clsNProfesoresStartDate : clsMenu
     {

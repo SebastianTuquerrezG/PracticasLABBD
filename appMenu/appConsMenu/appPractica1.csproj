@@ -7,8 +7,8 @@
     <ProjectGuid>{3F877C1F-D022-422E-AE74-E12D3CE55A13}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>appMatematica</RootNamespace>
-    <AssemblyName>appConsMatematica</AssemblyName>
+    <RootNamespace>appProyecto1</RootNamespace>
+    <AssemblyName>appPractica1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsActualizarDept.cs" />
+    <Compile Include="clsGenerarSentenciasSQL.cs" />
     <Compile Include="clsNProfesoresStartDate.cs" />
     <Compile Include="clsNProfesoresEnCatfEnDept.cs" />
     <Compile Include="clsNProfesoresEnDept.cs" />

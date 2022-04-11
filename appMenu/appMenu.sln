@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appConsMatematica", "appConsMenu\appConsMatematica.csproj", "{3F877C1F-D022-422E-AE74-E12D3CE55A13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appPractica1", "appConsMenu\appPractica1.csproj", "{3F877C1F-D022-422E-AE74-E12D3CE55A13}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libServicios", "..\libServicios\libServicios.csproj", "{FDE52B0D-B27F-485C-BA32-6C0E30C27875}"
 EndProject

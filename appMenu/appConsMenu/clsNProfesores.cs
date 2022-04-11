@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace appMatematica.Presentacion.Consola
+namespace appPractica1.Presentacion.Consola
 {
     public class clsNProfesores : clsMenu
     {

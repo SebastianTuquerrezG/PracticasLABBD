@@ -9,3 +9,14 @@ C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\appM
 C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\appMenu\appConsMenu\obj\Debug\appConsMatematica.csproj.CopyComplete
 C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\appMenu\appConsMenu\obj\Debug\appConsMatematica.exe
 C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica\appMenu\appConsMenu\obj\Debug\appConsMatematica.pdb
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\bin\Debug\appConsMatematica.exe.config
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\bin\Debug\appConsMatematica.exe
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\bin\Debug\appConsMatematica.pdb
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\bin\Debug\libServicios.dll
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\bin\Debug\libServicios.pdb
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\obj\Debug\appConsMatematica.csproj.AssemblyReference.cache
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\obj\Debug\appConsMatematica.csproj.SuggestedBindingRedirects.cache
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\obj\Debug\appConsMatematica.csproj.CoreCompileInputs.cache
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\obj\Debug\appConsMatematica.csproj.CopyComplete
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\obj\Debug\appConsMatematica.exe
+C:\Users\Personal\OneDrive - unicauca.edu.co\Documentos\Semestre 4\Practica1\appMenu\appConsMenu\obj\Debug\appConsMatematica.pdb

@@ -1,4 +1,4 @@
-﻿using appMatematica.Presentacion.Consola;
+﻿using appPractica1.Presentacion.Consola;
 
 namespace appConsMenu
 {

@@ -3,7 +3,7 @@ using Servicios.Menus;
 using System;
 using System.IO;
 
-namespace appMatematica.Presentacion.Consola
+namespace appPractica1.Presentacion.Consola
 {
     public class clsNProfesoresEnCatfEnDept : clsMenu
     {
